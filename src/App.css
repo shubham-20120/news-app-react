@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app-main{
+    display: flex;
+    flex-direction: column;
+}
+.app-left{
+    width: 72vw;
+    /* background-color: turquoise; */
+}
+.app-right{
+    width: 28vw;
+    background-color: violet;
+}
+.developer-section-inApp-mobile{
+    display: none;
+}
+@media only screen and (max-width: 1000px){
+    .app-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .app-right{
+        display: none;
+        height: auto;
+        width: 100%;
+    }
+    .developer-section-inApp-mobile{
+        display: block;
+    }
+}

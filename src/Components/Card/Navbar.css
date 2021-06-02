@@ -1,0 +1,58 @@
+.navbar-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.navbar-left{
+    font-size: 2rem;
+}
+.navbar-right{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width: auto;
+    /* background-color: aqua; */
+
+}
+.navbar-input{
+    padding: 5px 10px;
+    width: 100px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 grey;
+    transition: 0.4s;
+}
+.navbar-input:focus{
+    /* border-bottom: 1px  black dotted; */
+    box-shadow: 0 0 7px 0 grey;
+    padding-bottom: 5px;
+    width: 400px;
+}
+.navbar-input-btn{
+    padding: 6px 18px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 25px;
+    box-shadow: 0 0 3px 0 rgb(2, 90, 5);
+    background-color: rgb(94, 255, 80);
+    transition: 0.4s;
+    
+}
+.navbar-input-btn:hover{
+    background-color: #02820b;
+    color: white;
+    box-shadow: 0 0 5px 0 rgb(2, 90, 5);
+    cursor: pointer;
+}
+.navbar-input-btn:active{
+    box-shadow: 0 0 1px 0 rgb(2, 90, 5);
+    transition: 0.1s;
+    background-color: #09e218;
+    
+}
+.navbar-dropdown{
+    background-color: aqua;
+}
